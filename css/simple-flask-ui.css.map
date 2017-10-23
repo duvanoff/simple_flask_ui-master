@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACX,OAAO,EAAE,IAAI",
+"sources": ["simple-flask-ui.scss"],
+"names": [],
+"file": "simple-flask-ui.css"
+}

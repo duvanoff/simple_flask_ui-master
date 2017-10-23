@@ -1,0 +1,41 @@
+<script type='text/x-handlebars-template' id='structure'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-lg-12'>
+                <h1>
+                    <i class='fa fa-hand-o-right'></i> {{title}}
+                </h1>
+            </div>
+        </div>
+        <br>
+        <div class='row'>
+            <div class='col-lg-6'>
+                <label for='user_name'>
+                    {{label}}
+                </label>
+                <input style='width: 100%;'
+                       type='text'
+                       class='form-control'
+                       placeholder='{{label_placeholder}}'
+                       id='user_name'/>
+            </div>
+            <div class='col-lg-3'>
+                <label for='say_hallo_button'>
+                    &nbsp;
+                </label>
+                <button class='btn btn-default' id='say_hallo_button' style='width: 100%;'>
+                    <i class='fa fa-cogs'></i> {{button_label}}
+                </button>
+            </div>
+            <div class='col-lg-3'>
+                <label for='say_blueprint_hallo_button'>
+                    &nbsp;
+                </label>
+                <button class='btn btn-primary' id='say_blueprint_hallo_button' style='width: 100%;'>
+                    <i class='fa fa-cogs'></i> {{blueprint_button_label}}
+                </button>
+            </div>
+        </div>
+        <hr>
+    </div>
+</script>
